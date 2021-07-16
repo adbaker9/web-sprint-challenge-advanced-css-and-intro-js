@@ -208,10 +208,10 @@ Practice accessing data above by console.log-ing following items:
 (no functions needed) */
 
 //(1) Name of the first artist (0th index) in the array
-console.log('Task 1:',artists.name[0]);
+console.log('Task 1:'artists.name[0]);
 
 //(2) Bio of the third artist (2nd index) in the array 
-console.log('Task 1:',artists.bio[2]);
+console.log('Task 1:'artists.bio[2]);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -247,8 +247,8 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(array, number) {
   return artists.name,{ 
-  if{ (artists.years >="1900-2000")}
-}
+  if { years >="1900-2000"
+}}
   
 
 
@@ -283,8 +283,8 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(array, object) {
-  array.push[ "id": 20,
+ function addArtist(artists, object) {
+  artists.push[ "id": 20,
   "name": "Anthony D Baker", 
   "years": "1993 - current day",
   "genre": "Web Design," 
@@ -307,10 +307,10 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(artists, number) 
+function lotsOfArt(artists, number, name) 
   return{artists.name}
   if(artists.paintings > 100)
-}
+
 console.log('task 7:' lotsOfArt(artists));
 
 /* ***** END OF TASKS ***** */
